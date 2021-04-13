@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  color: #333;
+  overflow: hidden;
+}
+
+Table thead {
+  color: #4f4f53;
+}
+
+Table svg:hover {
+  cursor: pointer;
+}
