@@ -179,7 +179,7 @@ const Header = (props) => {
         <>
             <div className="main-menu">
                 <Navbar className="main-nav" color="light" light expand="md">
-                    <NavbarBrand href="/main">SisLOG</NavbarBrand>
+                    <NavbarBrand href="/">SisLOG</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
