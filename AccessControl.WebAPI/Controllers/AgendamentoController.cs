@@ -76,9 +76,9 @@ namespace AccessControl.WebAPI.Controllers
                     await _mail.SendEmailAsync(
                         new MailRequest
                         {
-                            ToEmail = "rsaito@cablena.com.br",
+                            ToEmail = "sislog_autorizar_telecom@cablenadobrasil.com.br",
                             Subject = "SISLOG - Novo agendamento cadastrado",
-                            Body = "Acesse o sistema para <strong>liberar</strong> o recebimento.<br>http://localhost:3000/main"
+                            Body = "Acesse o sistema para <strong>liberar</strong> o recebimento.<br>http://192.168.0.249:5400"
                         }
                     );
 
@@ -112,9 +112,9 @@ namespace AccessControl.WebAPI.Controllers
                     await _mail.SendEmailAsync(
                         new MailRequest
                         {
-                            ToEmail = "rsaito@cablena.com.br",
+                            ToEmail = "sislog_autorizar_telecom@cablenadobrasil.com.br",
                             Subject = "SISLOG - Agendamento atualizado",
-                            Body = "Acesse o sistema para <strong>liberar</strong> o recebimento.<br>http://localhost:3000/main"
+                            Body = "Acesse o sistema para <strong>liberar</strong> o recebimento.<br>http://192.168.0.249:5400"
                         }
                     );
 

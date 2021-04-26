@@ -130,9 +130,9 @@ namespace AccessControl.WebAPI.Controllers
                     await _mail.SendEmailAsync(
                         new MailRequest
                         {
-                            ToEmail = "rsaito@cablena.com.br",
+                            ToEmail = "sislog_agendar_telecom@cablenadobrasil.com.br",
                             Subject = "SISLOG - Nova nota fiscal cadastrada",
-                            Body = "Acesse o sistema para <strong>agendar</strong> o recebimento.<br>http://localhost:3000/main"
+                            Body = "Acesse o sistema para <strong>agendar</strong> o recebimento.<br>http://192.168.0.249:5400"
                         }
                     );
 
