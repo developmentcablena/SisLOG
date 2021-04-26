@@ -53,7 +53,7 @@ function AuthProvider({ children }) {
                 localStorage.setItem('funcao', JSON.stringify(response.data.funcao));
                 setLoading(false);
                 setError(false);
-                history.push("/main");
+                history.push("/");
             }
         } catch (error) {
             setError(true);
