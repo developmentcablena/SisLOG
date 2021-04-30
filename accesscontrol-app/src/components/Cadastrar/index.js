@@ -143,12 +143,12 @@ const Cadastrar = (props) => {
                     </Col>
                     <Col md={8}>
                         <FormGroup>
-                            <Label for="fornecedor">Fornecedor</Label>
+                            <Label for="fornecedor">Fornecedor/ Cliente</Label>
                             <Input 
                                 type="text" 
                                 name="fornecedor" 
                                 id="fornecedor"
-                                placeholder="fornecedor"
+                                placeholder="fornecedor/ cliente"
                                 onChange={handleChange}
                                 value={data.fornecedor}
                                 required
